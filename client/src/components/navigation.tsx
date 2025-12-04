@@ -11,9 +11,6 @@ const navLinks = [
   { href: "/timeline", label: "Timeline" },
   { href: "/rights-responsibilities", label: "Rights & Responsibilities" },
   { href: "/gallery", label: "Gallery" },
-  { href: "/sources", label: "Primary Sources" },
-  { href: "/bibliography", label: "Bibliography" },
-  { href: "/process", label: "Process Paper" },
 ];
 
 export function Navigation() {

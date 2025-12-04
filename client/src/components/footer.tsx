@@ -29,9 +29,6 @@ export function Footer() {
               <Link href="/gallery" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                 Gallery
               </Link>
-              <Link href="/bibliography" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Bibliography
-              </Link>
             </nav>
           </div>
 
@@ -46,12 +43,6 @@ export function Footer() {
               >
                 National History Day <ExternalLink className="h-3 w-3" />
               </a>
-              <Link href="/sources" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Primary Sources
-              </Link>
-              <Link href="/process" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Process Paper
-              </Link>
             </nav>
           </div>
         </div>

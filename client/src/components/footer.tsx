@@ -35,6 +35,12 @@ export function Footer() {
           <div>
             <h3 className="font-serif font-semibold mb-4">Resources</h3>
             <nav className="flex flex-col gap-2">
+              <Link href="/why-it-fits" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Why It Fits NHD
+              </Link>
+              <Link href="/bibliography" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Bibliography
+              </Link>
               <a 
                 href="https://nhd.org" 
                 target="_blank" 

@@ -3,8 +3,13 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/RenaissanceHistoryHub/",   // REQUIRED for GitHub Pages
+
+  // REQUIRED for GitHub Pages!
+  base: "/RenaissanceHistoryHub/",
+
+  // Optional but recommended
   build: {
     outDir: "dist",
-  },
+    emptyOutDir: true
+  }
 });

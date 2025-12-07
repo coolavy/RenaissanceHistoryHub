@@ -85,6 +85,12 @@ const bibliography: BibEntry[] = [
     citation:
       'Michelangelo. "Creation of Adam." 1512. Wikimedia Commons, Public Domain.',
   },
+  {
+    id: "15",
+    type: "image",
+    citation:
+      'Sandro Botticelli. "The Birth of Venus." c. 1484–1486. Uffizi Gallery. Wikimedia Commons / Google Art Project, Public Domain.',
+  },
 ];
 
 const typeInfo: Record<string, { icon: React.ReactNode; label: string }> = {

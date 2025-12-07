@@ -26,7 +26,7 @@ export default function Home() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/2560px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg')`,
+            backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80" />
@@ -246,7 +246,7 @@ export default function Home() {
             <Card className="group hover-elevate overflow-visible">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/800px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
                   alt="Mona Lisa by Leonardo da Vinci"
                   className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
                 />
@@ -275,7 +275,7 @@ export default function Home() {
             <Card className="group hover-elevate overflow-visible">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/1280px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg"
                   alt="Creation of Adam by Michelangelo"
                   className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
                 />
@@ -304,7 +304,7 @@ export default function Home() {
             <Card className="group hover-elevate overflow-visible">
               <div className="aspect-video relative overflow-hidden rounded-t-lg">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
                   alt="The Birth of Venus by Sandro Botticelli"
                   className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-105"
                 />

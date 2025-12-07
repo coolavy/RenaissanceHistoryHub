@@ -9,9 +9,6 @@ export default defineConfig({
     },
   },
 
-  // REQUIRED for GitHub Pages!
-  base: "/RenaissanceHistoryHub/",
-
   // Optional but recommended
   build: {
     outDir: "dist",

@@ -14,8 +14,6 @@ import WhyItFits from "@/pages/why-it-fits";
 import Bibliography from "@/pages/bibliography";
 import NotFound from "@/pages/not-found";
 
-const BASE_PATH = "/RenaissanceHistoryHub";
-
 function AppRouter() {
   return (
     <Switch>
@@ -32,7 +30,7 @@ function AppRouter() {
 
 function App() {
   return (
-    <Router base={BASE_PATH}>
+    <Router>
       <QueryClientProvider client={queryClient}>
         <ThemeProvider defaultTheme="light">
           <TooltipProvider>

@@ -12,78 +12,79 @@ const bibliography: BibEntry[] = [
   {
     id: "1",
     type: "book",
-    citation: "Burckhardt, Jacob. The Civilization of the Renaissance in Italy. Penguin Classics, 2004."
+    citation:
+      "Burckhardt, Jacob. The Civilization of the Renaissance in Italy. Penguin Classics, 2004.",
   },
   {
     id: "2",
     type: "book",
-    citation: "King, Ross. Brunelleschi's Dome: How a Renaissance Genius Reinvented Architecture. Bloomsbury, 2000."
+    citation:
+      "King, Ross. Brunelleschi's Dome: How a Renaissance Genius Reinvented Architecture. Bloomsbury, 2000.",
   },
   {
     id: "3",
     type: "primary",
-    citation: "Vasari, Giorgio. Lives of the Artists. Trans. Julia Conaway Bondanella. Oxford University Press, 2008."
+    citation:
+      "Vasari, Giorgio. Lives of the Artists. Trans. Julia Conaway Bondanella. Oxford University Press, 2008.",
   },
   {
     id: "4",
     type: "website",
-    citation: "National History Day. \"Rights & Responsibilities in History.\" NHD, 2024, nhd.org/en/contest/theme/."
+    citation:
+      'National History Day. "Rights & Responsibilities in History." NHD, 2024, nhd.org/en/contest/theme/.',
   },
   {
     id: "5",
     type: "website",
-    citation: "The Metropolitan Museum of Art. \"Renaissance Art.\" Heilbrunn Timeline of Art History, metmuseum.org."
+    citation:
+      'The Metropolitan Museum of Art. "Renaissance Art." Heilbrunn Timeline of Art History, metmuseum.org.',
   },
   {
     id: "6",
     type: "primary",
-    citation: "Pico della Mirandola, Giovanni. Oration on the Dignity of Man. 1486."
+    citation:
+      "Pico della Mirandola, Giovanni. Oration on the Dignity of Man. 1486.",
   },
   {
     id: "7",
     type: "primary",
-    citation: "Machiavelli, Niccolò. The Prince. 1513."
+    citation: "Machiavelli, Niccolò. The Prince. 1513.",
   },
   {
     id: "8",
     type: "documentary",
-    citation: "\"The Medici: Godfathers of the Renaissance.\" PBS, 2004."
+    citation: '"The Medici: Godfathers of the Renaissance." PBS, 2004.',
   },
   {
     id: "9",
     type: "book",
-    citation: "Strathern, Paul. The Medici: Power, Money, and Ambition in the Italian Renaissance. Pegasus Books, 2016."
+    citation:
+      "Strathern, Paul. The Medici: Power, Money, and Ambition in the Italian Renaissance. Pegasus Books, 2016.",
   },
   {
     id: "10",
     type: "image",
-    citation: "Raphael. \"The School of Athens.\" 1511. Wikimedia Commons, Public Domain. commons.wikimedia.org."
+    citation:
+      'Raphael. "The School of Athens." 1511. Wikimedia Commons, Public Domain. commons.wikimedia.org.',
   },
   {
     id: "11",
     type: "image",
-    citation: "Michelangelo. \"David.\" 1504. Photo by Jörg Bittner Unna. Wikimedia Commons, CC BY 3.0."
-  },
-  {
-    id: "12",
-    type: "image",
-    citation: "Botticelli, Sandro. \"The Birth of Venus.\" 1485. Google Art Project. Wikimedia Commons, Public Domain."
+    citation:
+      'Michelangelo. "David." 1504. Photo by Jörg Bittner Unna. Wikimedia Commons, CC BY 3.0.',
   },
   {
     id: "13",
     type: "image",
-    citation: "Leonardo da Vinci. \"Mona Lisa.\" c. 1503-1519. C2RMF. Wikimedia Commons, Public Domain."
+    citation:
+      'Leonardo da Vinci. "Mona Lisa." c. 1503-1519. C2RMF. Wikimedia Commons, Public Domain.',
   },
   {
     id: "14",
     type: "image",
-    citation: "Michelangelo. \"Creation of Adam.\" 1512. Wikimedia Commons, Public Domain."
+    citation:
+      'Michelangelo. "Creation of Adam." 1512. Wikimedia Commons, Public Domain.',
   },
-  {
-    id: "15",
-    type: "image",
-    citation: "Brunelleschi, Filippo. \"Florence Cathedral Dome.\" 1436. Photo by Florian Hirzinger. Wikimedia Commons, CC BY-SA 3.0."
-  }
 ];
 
 const typeInfo: Record<string, { icon: React.ReactNode; label: string }> = {
@@ -96,18 +97,20 @@ const typeInfo: Record<string, { icon: React.ReactNode; label: string }> = {
 
 export default function Bibliography() {
   const groupedEntries = {
-    books: bibliography.filter(e => e.type === "book"),
-    primary: bibliography.filter(e => e.type === "primary"),
-    websites: bibliography.filter(e => e.type === "website"),
-    documentaries: bibliography.filter(e => e.type === "documentary"),
-    images: bibliography.filter(e => e.type === "image"),
+    books: bibliography.filter((e) => e.type === "book"),
+    primary: bibliography.filter((e) => e.type === "primary"),
+    websites: bibliography.filter((e) => e.type === "website"),
+    documentaries: bibliography.filter((e) => e.type === "documentary"),
+    images: bibliography.filter((e) => e.type === "image"),
   };
 
   return (
     <div className="min-h-screen bg-background">
       <section className="py-16 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
-          <Badge variant="outline" className="mb-4">Works Cited</Badge>
+          <Badge variant="outline" className="mb-4">
+            Works Cited
+          </Badge>
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">
             Bibliography
           </h1>
@@ -129,7 +132,9 @@ export default function Bibliography() {
                 {groupedEntries.books.map((entry) => (
                   <Card key={entry.id}>
                     <CardContent className="py-3">
-                      <p className="text-sm leading-relaxed">{entry.citation}</p>
+                      <p className="text-sm leading-relaxed">
+                        {entry.citation}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}
@@ -147,7 +152,9 @@ export default function Bibliography() {
                 {groupedEntries.primary.map((entry) => (
                   <Card key={entry.id}>
                     <CardContent className="py-3">
-                      <p className="text-sm leading-relaxed">{entry.citation}</p>
+                      <p className="text-sm leading-relaxed">
+                        {entry.citation}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}
@@ -165,7 +172,9 @@ export default function Bibliography() {
                 {groupedEntries.websites.map((entry) => (
                   <Card key={entry.id}>
                     <CardContent className="py-3">
-                      <p className="text-sm leading-relaxed">{entry.citation}</p>
+                      <p className="text-sm leading-relaxed">
+                        {entry.citation}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}
@@ -183,7 +192,9 @@ export default function Bibliography() {
                 {groupedEntries.documentaries.map((entry) => (
                   <Card key={entry.id}>
                     <CardContent className="py-3">
-                      <p className="text-sm leading-relaxed">{entry.citation}</p>
+                      <p className="text-sm leading-relaxed">
+                        {entry.citation}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}
@@ -201,7 +212,9 @@ export default function Bibliography() {
                 {groupedEntries.images.map((entry) => (
                   <Card key={entry.id}>
                     <CardContent className="py-3">
-                      <p className="text-sm leading-relaxed">{entry.citation}</p>
+                      <p className="text-sm leading-relaxed">
+                        {entry.citation}
+                      </p>
                     </CardContent>
                   </Card>
                 ))}

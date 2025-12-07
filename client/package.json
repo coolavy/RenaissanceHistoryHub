@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://coolavy.github.io/RenaissanceHistoryHub/",
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
     "build": "tsx script/build.ts",
@@ -103,4 +104,5 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
   }
+  
 }

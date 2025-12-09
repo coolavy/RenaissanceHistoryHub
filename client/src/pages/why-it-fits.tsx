@@ -49,10 +49,10 @@ export default function WhyItFits() {
 
           <h2 className="font-serif text-2xl font-bold mb-6">Renaissance as a Reformation: Breaking from the Medieval Past</h2>
           
-          <Card className="mb-8 border-amber-200 bg-amber-50">
+          <Card className="mb-8 border-muted-foreground/20 bg-muted/40">
             <CardHeader>
               <CardTitle className="font-serif text-xl flex items-center gap-2">
-                <Scale className="h-5 w-5 text-amber-700" />
+                <Scale className="h-5 w-5 text-primary" />
                 What Changed: Medieval vs. Renaissance
               </CardTitle>
             </CardHeader>
@@ -62,7 +62,7 @@ export default function WhyItFits() {
                   <h4 className="font-semibold text-sm text-muted-foreground mb-3 uppercase tracking-wide">Medieval Period</h4>
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex items-start gap-2">
-                      <span className="text-amber-700 shrink-0">•</span>
+                      <span className="text-muted-foreground/70 shrink-0">•</span>
                       <span>Art served religious purposes; artists were anonymous craftspeople</span>
                     </li>
                     <li className="flex items-start gap-2">

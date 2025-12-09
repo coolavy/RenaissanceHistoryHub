@@ -47,7 +47,103 @@ export default function WhyItFits() {
             </CardContent>
           </Card>
 
-          <h2 className="font-serif text-2xl font-bold mb-6">Key Theme Connections</h2>
+          <h2 className="font-serif text-2xl font-bold mb-6">Renaissance as a Reformation: Breaking from the Medieval Past</h2>
+          
+          <Card className="mb-8 border-amber-200 bg-amber-50">
+            <CardHeader>
+              <CardTitle className="font-serif text-xl flex items-center gap-2">
+                <Scale className="h-5 w-5 text-amber-700" />
+                What Changed: Medieval vs. Renaissance
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-sm text-muted-foreground mb-3 uppercase tracking-wide">Medieval Period</h4>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <span className="text-amber-700 shrink-0">•</span>
+                      <span>Art served religious purposes; artists were anonymous craftspeople</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-amber-700 shrink-0">•</span>
+                      <span>Knowledge came from Church authority and ancient texts (filtered through Church interpretation)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-amber-700 shrink-0">•</span>
+                      <span>Feudal hierarchies controlled participation; most people had fixed social roles</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-amber-700 shrink-0">•</span>
+                      <span>Latin dominated learning; common people excluded from education</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-sm text-muted-foreground mb-3 uppercase tracking-wide">Renaissance Period</h4>
+                  <ul className="space-y-2 text-sm text-muted-foreground">
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary shrink-0">✓</span>
+                      <span>Artists became celebrated individuals with personal styles and reputations</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary shrink-0">✓</span>
+                      <span>Scholars studied classical texts directly; humanists developed critical reading methods</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary shrink-0">✓</span>
+                      <span>City-states created new forms of civic participation and citizenship</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-primary shrink-0">✓</span>
+                      <span>Printing press and vernacular languages made knowledge more accessible</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="mb-8">
+            <CardHeader>
+              <CardTitle className="font-serif text-xl flex items-center gap-2">
+                <Lightbulb className="h-5 w-5 text-primary" />
+                Why "Renaissance" Means Reformation
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                The word "Renaissance" literally means "rebirth"—and that's exactly what it was. Renaissance thinkers 
+                believed they were reforming their society by returning to the best of classical antiquity (Greece and Rome), 
+                which they saw as a lost golden age. They rejected what they saw as the ignorance and superstition of the 
+                "Dark Ages" and "Middle Ages."
+              </p>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                In this sense, the Renaissance was a <strong>reformation</strong> in the truest meaning of the word: 
+                a fundamental re-formation of society, culture, and values. Like any reformation, it involved:
+              </p>
+              <ul className="space-y-2 mt-4">
+                <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Challenging established authority</strong> — Questioning medieval institutions and ways of thinking</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Returning to sources</strong> — Going back to classical texts rather than medieval interpretations</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Spreading new ideas</strong> — Using new technology (printing press) to reach more people</span>
+                </li>
+                <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Transforming society</strong> — Creating new roles, rights, and responsibilities for individuals</span>
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <h2 className="font-serif text-2xl font-bold mb-6 mt-12">Key Theme Connections</h2>
           
           <div className="grid gap-6 mb-12">
             <Card>

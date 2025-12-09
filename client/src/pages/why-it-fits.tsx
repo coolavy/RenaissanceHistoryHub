@@ -2,12 +2,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { 
   CheckCircle, 
-  Zap,
+  Scale, 
+  Palette, 
   BookOpen, 
+  Landmark, 
   Users,
   Lightbulb,
-  Quote,
-  TrendingUp
+  Quote
 } from "lucide-react";
 
 export default function WhyItFits() {
@@ -15,39 +16,70 @@ export default function WhyItFits() {
     <div className="min-h-screen bg-background">
       <section className="py-16 bg-muted/30">
         <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8 text-center">
-          <Badge variant="outline" className="mb-4">NHD Theme</Badge>
+          <Badge variant="outline" className="mb-4">NHD 2025 Theme</Badge>
           <h1 className="font-serif text-4xl md:text-5xl font-bold mb-4">
-            Why the Renaissance Fits the Reformation
+            Why the Renaissance Fits
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            How the Renaissance movement directly enabled, shaped, and accelerated 
-            the religious and intellectual revolution known as the Reformation
+            How the Renaissance connects to the National History Day 2025 theme: 
+            "Rights & Responsibilities in History"
           </p>
         </div>
       </section>
 
       <section className="py-12">
         <div className="max-w-4xl mx-auto px-4 md:px-6 lg:px-8">
-          <Card className="mb-8 border-primary/30 bg-primary/5">
+          <Card className="mb-8">
             <CardHeader>
               <CardTitle className="font-serif text-2xl flex items-center gap-2">
-                <Zap className="h-6 w-6 text-primary" />
-                The Direct Connection
+                <Scale className="h-6 w-6 text-primary" />
+                The Theme Connection
               </CardTitle>
             </CardHeader>
             <CardContent className="prose prose-sm max-w-none">
               <p className="text-muted-foreground leading-relaxed">
-                The Renaissance (1300-1600) and the Reformation (1517 onwards) are inseparable historical movements. 
-                Without the intellectual, technological, and cultural innovations of the Renaissance, the Reformation 
-                could not have occurred. The Renaissance created the conditions, tools, and mindset that made it possible 
-                for Martin Luther and other reformers to challenge the Church and transform Christianity forever.
+                The Renaissance (1300-1600) represents one of history's most significant periods for 
+                the development of ideas about individual rights and social responsibilities. During 
+                this era, Europeans began rethinking fundamental questions: What rights do individuals 
+                have? What do we owe to our communities, patrons, and institutions? The answers they 
+                developed continue to shape our world today.
               </p>
             </CardContent>
           </Card>
 
-          <h2 className="font-serif text-2xl font-bold mb-6">How the Renaissance Enabled the Reformation</h2>
+          <h2 className="font-serif text-2xl font-bold mb-6">Key Theme Connections</h2>
           
           <div className="grid gap-6 mb-12">
+            <Card>
+              <CardHeader className="pb-2">
+                <div className="flex items-center gap-3">
+                  <div className="p-2 rounded-md bg-primary/10">
+                    <Palette className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-lg">Artistic Freedom vs. Patronage</CardTitle>
+                    <CardDescription>The balance between creative rights and obligations</CardDescription>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <ul className="space-y-2">
+                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                    Artists gained recognition as creative individuals with the right to personal vision
+                  </li>
+                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                    Patrons like the Medici bore responsibility to support arts and learning
+                  </li>
+                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
+                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
+                    Artists balanced creative freedom with obligations to commissioners
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
             <Card>
               <CardHeader className="pb-2">
                 <div className="flex items-center gap-3">
@@ -55,8 +87,8 @@ export default function WhyItFits() {
                     <BookOpen className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-lg">Humanism & Textual Criticism</CardTitle>
-                    <CardDescription>Returning to original sources</CardDescription>
+                    <CardTitle className="text-lg">Intellectual Inquiry vs. Religious Authority</CardTitle>
+                    <CardDescription>The tension between knowledge and orthodoxy</CardDescription>
                   </div>
                 </div>
               </CardHeader>
@@ -64,19 +96,15 @@ export default function WhyItFits() {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Renaissance humanists developed techniques to study ancient texts in their original languages (Latin, Greek, Hebrew)
+                    Humanists claimed the right to study classical texts directly
                   </li>
                   <li className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Scholars like Lorenzo Valla discovered errors in the Latin Vulgate Bible and Church documents
+                    Scientists like Copernicus navigated responsibility to Church teachings
                   </li>
                   <li className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Martin Luther used this same textual approach to question Church teachings and argue "sola scriptura" (Scripture alone)
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    The scholarly framework of the Renaissance made theological challenge possible
+                    The printing press raised questions about the right to spread ideas
                   </li>
                 </ul>
               </CardContent>
@@ -86,11 +114,11 @@ export default function WhyItFits() {
               <CardHeader className="pb-2">
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-md bg-primary/10">
-                    <TrendingUp className="h-5 w-5 text-primary" />
+                    <Landmark className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <CardTitle className="text-lg">The Printing Press</CardTitle>
-                    <CardDescription>Technology that spread the Reformation</CardDescription>
+                    <CardTitle className="text-lg">Civic Participation vs. Civic Duty</CardTitle>
+                    <CardDescription>Rights and obligations of citizenship</CardDescription>
                   </div>
                 </div>
               </CardHeader>
@@ -98,110 +126,38 @@ export default function WhyItFits() {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Johannes Gutenberg invented the printing press in 1440, during the early Renaissance
+                    Italian city-states developed republican ideals and citizen participation
                   </li>
                   <li className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    The Renaissance valued literacy, learning, and the dissemination of texts
+                    Citizens bore responsibilities for taxes, military service, and public welfare
                   </li>
                   <li className="flex items-start gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    When Martin Luther published his 95 Theses (1517), the printing press allowed them to spread across Europe in weeks
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Without Renaissance printing technology, the Reformation would have remained a local dispute
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className="pb-2">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-md bg-primary/10">
-                    <Lightbulb className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <CardTitle className="text-lg">Intellectual Freedom & Questioning</CardTitle>
-                    <CardDescription>A culture of challenge and debate</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Renaissance thinkers celebrated reason, observation, and questioning of authority
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Renaissance universities and patrons encouraged debate and intellectual experimentation
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    This culture created the intellectual confidence needed for religious reformers to challenge the Church
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Luther, Calvin, and others came from Renaissance-educated backgrounds
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader className="pb-2">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 rounded-md bg-primary/10">
-                    <Users className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <CardTitle className="text-lg">Individual Agency & Personal Conscience</CardTitle>
-                    <CardDescription>Empowering the individual</CardDescription>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Renaissance humanism placed unprecedented emphasis on individual potential and achievement
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    The Protestant Reformation emphasized "the priesthood of all believers" and individual reading of Scripture
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    This directly reflects Renaissance values of individual dignity and agency
-                  </li>
-                  <li className="flex items-start gap-2 text-sm text-muted-foreground">
-                    <CheckCircle className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                    Both movements empowered people to think and act for themselves
+                    Wealthy families were expected to contribute to public good
                   </li>
                 </ul>
               </CardContent>
             </Card>
           </div>
 
-          <Card className="bg-primary/5 border-primary/20 mb-8">
+          <Card className="bg-primary/5 border-primary/20">
             <CardHeader>
               <CardTitle className="font-serif flex items-center gap-2">
-                <Zap className="h-5 w-5 text-primary" />
-                Reformation as Renaissance in Religious Form
+                <Lightbulb className="h-5 w-5 text-primary" />
+                Why This Topic Matters
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-sm text-muted-foreground leading-relaxed">
-                The Reformation was essentially the Renaissance applied to theology and religion. Both movements shared 
-                core values: returning to original sources (classical texts vs. Scripture), valuing individual judgment 
-                over institutional authority, using new technologies to spread ideas, and celebrating human potential 
-                and dignity.
+                The Renaissance laid the groundwork for modern ideas about individual rights and 
+                social responsibility. Concepts developed during this period—artistic freedom, 
+                intellectual inquiry, civic participation—continue to shape debates about the 
+                balance between personal liberty and community obligation.
               </p>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Where the Renaissance transformed art, literature, and learning, the Reformation transformed faith, 
-                church structure, and religious practice. Neither could have happened without the other.
+                By studying how Renaissance people navigated these tensions, we gain insight into 
+                our own struggles to balance rights and responsibilities in the 21st century.
               </p>
             </CardContent>
           </Card>
@@ -211,14 +167,11 @@ export default function WhyItFits() {
               <Quote className="h-6 w-6 text-primary shrink-0" />
               <div>
                 <p className="font-serif italic text-lg mb-2">
-                  "Ad fontes" — "To the sources!"
+                  "We have made thee neither of heaven nor of earth... so that with freedom 
+                  of choice and with honor, thou mayest fashion thyself in whatever shape thou shalt prefer."
                 </p>
-                <p className="text-sm text-muted-foreground mb-3">
-                  The rallying cry of Renaissance humanists, equally adopted by Reformation scholars
-                </p>
-                <p className="text-xs text-muted-foreground">
-                  This phrase encapsulates the shared commitment of both movements: to abandon 
-                  intermediaries and authorities, returning directly to original texts and truths.
+                <p className="text-sm text-muted-foreground">
+                  — Giovanni Pico della Mirandola, <em>Oration on the Dignity of Man</em> (1486)
                 </p>
               </div>
             </div>

@@ -48,8 +48,8 @@ export default function Home() {
           </p>
           
           <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Explore how the rebirth of classical learning from 1300-1600 transformed ideas 
-            about individual rights, artistic freedom, and civic responsibility across Europe.
+            Discover how the Renaissance was a reformation that challenged medieval authority, 
+            redefined individual rights, and transformed society from 1300-1600.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -92,8 +92,8 @@ export default function Home() {
               Connecting to the Theme
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-              The Renaissance marked a pivotal shift in how individuals and societies 
-              understood their rights and responsibilities.
+              The Renaissance was a reformation that challenged established authority, returned to classical sources, 
+              and transformed individual rights and civic responsibilities.
             </p>
           </div>
 
@@ -117,8 +117,8 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium mb-1">Artistic Freedom</h4>
                     <p className="text-sm text-muted-foreground">
-                      Artists gained recognition as creative individuals rather than anonymous craftsmen, 
-                      claiming the right to personal artistic vision and expression.
+                      Renaissance artists broke from medieval constraints, claiming the right to individual 
+                      recognition, personal vision, and creative expression.
                     </p>
                   </div>
                 </div>
@@ -127,8 +127,8 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium mb-1">Intellectual Inquiry</h4>
                     <p className="text-sm text-muted-foreground">
-                      Humanists championed the right to question tradition, study classical texts, 
-                      and pursue knowledge through reason and observation.
+                      Humanists challenged Church authority, reclaimed classical sources, and asserted 
+                      the right to independent scholarship and critical thinking.
                     </p>
                   </div>
                 </div>
@@ -137,8 +137,8 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium mb-1">Civic Participation</h4>
                     <p className="text-sm text-muted-foreground">
-                      Italian city-states developed republican ideals, expanding citizens' rights 
-                      to participate in governance and public life.
+                      Renaissance city-states redefined citizenship, granting individuals unprecedented 
+                      rights to participate in governance and shape their communities.
                     </p>
                   </div>
                 </div>
@@ -164,8 +164,8 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium mb-1">Patronage Obligations</h4>
                     <p className="text-sm text-muted-foreground">
-                      Wealthy families like the Medici accepted responsibility to support arts and 
-                      learning, funding artists, scholars, and public works.
+                      With newfound wealth came responsibility: wealthy families like the Medici bore 
+                      the duty to support arts, learning, and their communities.
                     </p>
                   </div>
                 </div>
@@ -174,18 +174,18 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium mb-1">Civic Duty</h4>
                     <p className="text-sm text-muted-foreground">
-                      Citizens bore responsibility for the welfare of their city-states through 
-                      taxes, military service, and participation in civic institutions.
+                      Expanded rights demanded corresponding duties: citizens bore responsibility through 
+                      taxes, military service, and active governance participation.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <BookOpen className="h-5 w-5 text-accent-foreground mt-0.5 shrink-0" />
                   <div>
-                    <h4 className="font-medium mb-1">Religious Orthodoxy</h4>
+                    <h4 className="font-medium mb-1">Institutional Boundaries</h4>
                     <p className="text-sm text-muted-foreground">
-                      Despite intellectual freedom, artists and scholars navigated responsibilities 
-                      to religious institutions that commissioned and censored their work.
+                      Even as individuals asserted new rights, they remained bound by responsibilities 
+                      to Church, patrons, and civic authorities that funded and commissioned their work.
                     </p>
                   </div>
                 </div>
@@ -194,9 +194,9 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/rights-responsibilities">
+            <Link href="/why-it-fits">
               <Button variant="outline" size="lg" data-testid="button-explore-theme">
-                Explore Theme in Depth
+                Why the Renaissance Fits the Theme
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
@@ -287,8 +287,8 @@ export default function Home() {
                 </div>
                 <CardTitle className="font-serif">Primary Sources</CardTitle>
                 <CardDescription>
-                  Read original texts from Renaissance thinkers, artists, and leaders 
-                  that shaped ideas about rights and duties.
+                  Examine primary sources revealing how Renaissance figures challenged authority, 
+                  claimed new rights, and negotiated their responsibilities.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -316,8 +316,8 @@ export default function Home() {
                 </div>
                 <CardTitle className="font-serif">Art Gallery</CardTitle>
                 <CardDescription>
-                  Discover masterpieces that embody Renaissance ideals of beauty, 
-                  humanism, and the balance of rights and responsibilities.
+                  View artworks revealing how Renaissance masters exercised newfound creative freedoms 
+                  while navigating responsibilities to patrons and institutions.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -343,8 +343,8 @@ export default function Home() {
             Cosimo de' Medici, quoting an Italian proverb
           </p>
           <p className="text-sm text-primary-foreground/60">
-            Reflecting the Renaissance belief that artistic creation was an expression 
-            of individual identity and rights.
+            This captures the Renaissance reformation: individuals asserting new rights to personal expression 
+            and identity, even as they bore new responsibilities to patrons and communities.
           </p>
         </div>
       </section>

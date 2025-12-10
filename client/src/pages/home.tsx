@@ -105,10 +105,10 @@ export default function Home() {
                   <div className="p-2 rounded-md bg-primary/10">
                     <Scale className="h-5 w-5 text-primary" />
                   </div>
-                  <CardTitle className="font-serif text-2xl">Rights in the Renaissance</CardTitle>
+                  <CardTitle className="font-serif text-2xl">Breaking from the Medieval: New Rights</CardTitle>
                 </div>
                 <CardDescription className="text-base">
-                  The era expanded notions of individual rights and freedoms
+                  How the Renaissance reformed society by claiming new individual rights
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -152,10 +152,10 @@ export default function Home() {
                   <div className="p-2 rounded-md bg-accent/10">
                     <ScrollText className="h-5 w-5 text-accent-foreground" />
                   </div>
-                  <CardTitle className="font-serif text-2xl">Responsibilities of the Era</CardTitle>
+                  <CardTitle className="font-serif text-2xl">Reformation's Challenge: New Responsibilities</CardTitle>
                 </div>
                 <CardDescription className="text-base">
-                  With new rights came corresponding obligations
+                  With reformed rights came the burden of new duties to society
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
